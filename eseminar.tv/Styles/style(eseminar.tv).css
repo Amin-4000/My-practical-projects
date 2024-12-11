@@ -1,0 +1,90 @@
+.header .HeaderBanner {
+    background: url(../image/header2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: auto 70px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 70px;
+}
+
+/* @media (max-width:768px) {
+    .header {
+        background: url(../image/header2.jpg);
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        display: flex;
+        background-size: 1444px 70px;
+        background-position: 50%;
+        vertical-align: top;
+    }
+} */
+
+/* NAV */
+.navbar{
+    border-bottom: 1px solid #f1f3f8;
+}
+.navs {
+    --bs-nav-link-padding-x: 16px;
+    --bs-nav-link-padding-y: 14px;
+    --bs-nav-link-font-weight: 400;
+    --bs-nav-link-hover-color: rgb(52, 52, 72);
+    margin-right: -62px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 14px;
+    color: rgb(179, 177, 177);
+}
+
+.profile i,img{
+    color: rgb(179, 177, 177);
+    font-size: 14px;
+    cursor: pointer;
+}
+.toggler .profile i:hover{
+    color: #343448;
+}
+.offcanvas-body a{
+    color: rgb(151 147 147);
+    font-size: 14px;
+}
+.offcanvas-header .btn-close:focus{
+    box-shadow: none;
+}
+@media screen and (max-width: 576px){
+    .navs{
+        margin-right:-37px;
+    }
+    .nav-item{
+        margin: 0 -12px;
+        font-size: 11px;
+    }
+
+    .profile{
+        margin-top: 26px;
+    }
+
+    .profile img{
+        margin-right: -20px;
+    }
+    .profile i{
+        margin-top: 6px;
+        margin-right: 7px;
+        font-size: 12px;
+    }
+}
+
+.SignIn{
+    --bs-nav-link-font-weight: 400;
+    --bs-nav-link-hover-color: rgb(52, 52, 72);
+    list-style: none;
+    font-size: 14px;
+    color: rgb(179, 177, 177);
+    margin-bottom: -22px;
+}
+.SignIn a{
+    display: inline-block;
+}
